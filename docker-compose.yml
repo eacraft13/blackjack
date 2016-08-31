@@ -1,7 +1,7 @@
 version: '2'
 services:
   app:
-    build: app/.
+    image: eacraft13/blackjack-app
     command: npm start
     environment:
       NODE_ENV: development

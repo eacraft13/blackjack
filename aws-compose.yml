@@ -1,0 +1,8 @@
+app:
+  image: eacraft13/blackjack-app
+  environment:
+    NODE_ENV: production
+  ports:
+    - '80:8080'
+  cpu_shares: 100
+  mem_limit: 262144000
