@@ -2,7 +2,7 @@ version: '2'
 services:
   app:
     build: app/.
-    command: node_modules/.bin/nodemon index.js
+    command: npm start
     environment:
       NODE_ENV: development
     volumes:
