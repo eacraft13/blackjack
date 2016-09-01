@@ -1,7 +1,9 @@
-app:
-  image: eacraft13/blackjack-app
-  ports:
-    - '80:80'
-    - '443:443'
-  cpu_shares: 100
-  mem_limit: 262144000
+version: '2'
+services:
+  app:
+    image: eacraft13/blackjack-app
+    ports:
+      - '80:80'
+      - '443:443'
+    cpu_shares: 100
+    mem_limit: 262144000
