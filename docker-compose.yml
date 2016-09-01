@@ -3,7 +3,7 @@ services:
   app:
     image: eacraft13/blackjack-app
     volumes:
-      - ./app/html/:/usr/share/nginx/html/
+      - ./app/dist/:/usr/share/nginx/html/
       - ./app/nginx.conf:/etc/nginx/conf.d/blackjack.conf
     ports:
       - '80:80'
